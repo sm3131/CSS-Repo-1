@@ -27,7 +27,12 @@ figure {
   font-weight: bolder;
 }
 
-/* TODO: Label selector type */
+/* This is an ID selector - Only use this once/more specific*/
 #contact-section {
-  background-color: #f0ead6;
+  background-color: lime;
+}
+
+/* More specific wins even if it is higher in CSS cascade*/
+body #contact-section {
+  background-color: teal;
 }
