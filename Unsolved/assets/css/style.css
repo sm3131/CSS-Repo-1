@@ -22,7 +22,7 @@ figure {
   background-color: #f0ead6;
 }
 
-/* TODO: Label selector type */
+/* This is a class selector */
 .highlighted-text {
   font-weight: bolder;
 }
